@@ -1,0 +1,40 @@
+/* Browser/Display fixes*/
+
+/* @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap'); */
+
+
+html,
+body {
+    margin: 0;
+    
+}
+
+/* Box sizing fix taken from - https://css-tricks.com/almanac/properties/b/box-sizing/ */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child,
+p:first-child,
+ol:first-child,
+ul:first-child {
+    margin-top: 0;
+} 
+
+h1:last-child,
+h2:last-child,
+h3:last-child,
+h4:last-child,
+h5:last-child,
+h6:last-child,
+p:last-child,
+ol:last-child,
+ul:last-child {
+    margin-bottom: 0;
+} 
