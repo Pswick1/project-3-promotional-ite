@@ -44,7 +44,7 @@ body {
     background-color: rgb(93, 107, 94);
 }
 
-img {
+.top {
     max-width: 270px;
   height: auto;
   position: sticky;
@@ -52,15 +52,53 @@ img {
   float: right;
 }
 
+
 h1 {
     font-family: "Jacquarda Bastarda 9", serif;
     color: white;
     text-align: center;
-    font-size: 200px;
+    /* font-size: 200px; */
     font-weight: 400;
     font-style: normal;
     padding: 300px 0;
     text-decoration: underline;
     text-decoration-thickness: 10px;
+    flex-wrap: wrap;
+    padding-bottom: 400px;
+    font-size: min(15vw, 200px);
 
 }
+
+h2 {
+    font-family: "Jacquarda Bastarda 9", serif;
+    font-weight: 400;
+    font-style: normal;
+    /* font-size: 64px; */
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: min(7vw, 64px);
+}
+
+#new {
+    background-image: url(../images/papertexture.jpeg);
+    background-color: rgb(249, 247, 220);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 1000px;
+    padding-top: 50px;
+}
+
+.wolf {
+    /* max-width: 900px; */
+    height: auto;
+    display: block;
+  margin: auto;
+  width: 30%;
+}
+
+.wolf:hover {
+    height: auto;
+    width: 31%;
+    transition: all 300ms ease-out;
+}
+
