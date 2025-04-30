@@ -1,12 +1,13 @@
 /* Browser/Display fixes*/
 
-/* @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9&display=swap');
 
 
 html,
 body {
     margin: 0;
-    
+    background-image: url(../images/FlowerBackground.png);
+    background-size: cover;
 }
 
 /* Box sizing fix taken from - https://css-tricks.com/almanac/properties/b/box-sizing/ */
@@ -44,5 +45,22 @@ body {
 }
 
 img {
-    align-content: end;
+    max-width: 270px;
+  height: auto;
+  position: sticky;
+  top: 0;
+  float: right;
+}
+
+h1 {
+    font-family: "Jacquarda Bastarda 9", serif;
+    color: white;
+    text-align: center;
+    font-size: 200px;
+    font-weight: 400;
+    font-style: normal;
+    padding: 300px 0;
+    text-decoration: underline;
+    text-decoration-thickness: 10px;
+
 }
