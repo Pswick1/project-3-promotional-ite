@@ -135,7 +135,7 @@ h2 {
 
   /* Slideshow container */
   .slideshow-container {
-    max-width: 1000px;
+    max-width: 500px;
     position: relative;
     margin: auto;
   }
@@ -218,3 +218,131 @@ h2 {
     from {opacity: .4}
     to {opacity: 1}
   }
+
+  h3 {
+    font-family: "Jacquarda Bastarda 9", serif;
+    font-weight: 400;
+    font-style: normal;
+    /* font-size: 64px; */
+    text-align: left;
+    flex-wrap: wrap;
+    font-size: min(7vw, 64px);
+    text-decoration: underline;
+  }
+
+  #trad {
+    background-image: url(../images/papertexture.jpeg);
+    background-color: rgb(249, 247, 220);
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+h4 {
+  font-family: "Jacquarda Bastarda 9", serif;
+  font-weight: 400;
+  font-style: normal;
+  /* font-size: 64px; */
+  text-align: left;
+  flex-wrap: wrap;
+  font-size: min(7vw, 64px);
+  text-decoration: underline;
+}
+
+#dig {
+  background-image: url(../images/papertexture.jpeg);
+  background-color: rgb(249, 247, 220);
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+h5 {
+  font-family: "Jacquarda Bastarda 9", serif;
+  font-weight: 400;
+  font-style: normal;
+  /* font-size: 64px; */
+  text-align: left;
+  flex-wrap: wrap;
+  font-size: min(7vw, 64px);
+  text-decoration: underline;
+}
+
+#char {
+  background-image: url(../images/papertexture.jpeg);
+  background-color: rgb(249, 247, 220);
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+h6 {
+  font-family: "Jacquarda Bastarda 9", serif;
+  font-weight: 400;
+  font-style: normal;
+  /* font-size: 64px; */
+  text-align: left;
+  flex-wrap: wrap;
+  font-size: min(7vw, 64px);
+  text-decoration: underline;
+}
+
+#phys {
+  background-image: url(../images/papertexture.jpeg);
+  background-color: rgb(249, 247, 220);
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+.item {
+  /* max-width: 900px; */
+  height: auto;
+  display: block;
+margin: auto;
+width: 40%;
+}
+
+.thumb {
+  /* max-width: 900px; */
+  height: auto;
+  display: block;
+margin: auto;
+width: 40%;
+}
+
+.food {
+  /* max-width: 900px; */
+  height: auto;
+  display: block;
+margin: auto;
+width: 40%;
+}
+
+.one {
+  /* max-width: 900px; */
+  height: auto;
+  display: block;
+margin: auto;
+width: 40%;
+}
+
+.kitchen {
+  /* max-width: 900px; */
+  height: auto;
+  display: block;
+margin: auto;
+width: 40%;
+}
