@@ -346,3 +346,43 @@ width: 40%;
 margin: auto;
 width: 40%;
 }
+
+.wolf {
+  /* max-width: 900px; */
+  height: auto;
+  display: block;
+margin: auto;
+width: 40%;
+}
+
+.dog {
+  /* max-width: 900px; */
+  height: auto;
+  display: block;
+margin: auto;
+width: 40%;
+}
+
+.red {
+  /* max-width: 900px; */
+  height: auto;
+  display: block;
+margin: auto;
+width: 40%;
+}
+
+.pizza {
+  /* max-width: 900px; */
+  height: auto;
+  display: block;
+margin: auto;
+width: 40%;
+}
+
+.pomme {
+  /* max-width: 900px; */
+  height: auto;
+  display: block;
+margin: auto;
+width: 40%;
+}
