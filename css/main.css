@@ -232,6 +232,8 @@ h2 {
     border-color: rgb(158, 219, 162);
     border-width: 5px;
     border-radius: 70px;
+    margin-left: 600px;
+    margin-right: 600px;
   }
 
   #trad {
@@ -473,5 +475,5 @@ justify-content: space-evenly;
 .bee {
   height:auto;
   width: 40%;
-  margin-left: 350px;
+  margin-left: 750px;
 }
