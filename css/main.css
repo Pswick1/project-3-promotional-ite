@@ -464,5 +464,9 @@ width: 40%;
 flex-direction: row;
 flex-wrap: wrap;
 justify-content: space-evenly;
+}
 
+.bee {
+  height:auto;
+  width: 40%;
 }
