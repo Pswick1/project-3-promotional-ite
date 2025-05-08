@@ -246,7 +246,7 @@ h4 {
   font-weight: 400;
   font-style: normal;
   /* font-size: 64px; */
-  text-align: left;
+  text-align: center;
   flex-wrap: wrap;
   font-size: min(7vw, 64px);
   text-decoration: underline;
@@ -268,7 +268,7 @@ h5 {
   font-weight: 400;
   font-style: normal;
   /* font-size: 64px; */
-  text-align: left;
+  text-align: center;
   flex-wrap: wrap;
   font-size: min(7vw, 64px);
   text-decoration: underline;
@@ -290,7 +290,7 @@ h6 {
   font-weight: 400;
   font-style: normal;
   /* font-size: 64px; */
-  text-align: left;
+  text-align: center;
   flex-wrap: wrap;
   font-size: min(7vw, 64px);
   text-decoration: underline;
@@ -469,5 +469,5 @@ justify-content: space-evenly;
 .bee {
   height:auto;
   width: 40%;
-  align-content: center;
+  margin-left: 250px;
 }
