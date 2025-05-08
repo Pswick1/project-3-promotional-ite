@@ -228,7 +228,7 @@ h2 {
     flex-wrap: wrap;
     font-size: min(7vw, 64px);
     text-decoration: underline;
-    border-style: groove;
+    border-style: dashed;
     border-color: rgb(158, 219, 162);
     border-width: 10px;
     border-radius: 70px;
