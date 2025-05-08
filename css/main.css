@@ -503,3 +503,8 @@ justify-content: space-evenly;
   width: 40%;
   margin-left: 700px;
 }
+
+#end {
+  background-color: rgb(43, 58, 44);
+  text-align: center;
+}
