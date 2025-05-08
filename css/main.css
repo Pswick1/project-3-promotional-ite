@@ -228,7 +228,7 @@ h2 {
     flex-wrap: wrap;
     font-size: min(7vw, 64px);
     text-decoration: underline;
-    border-style: dashed;
+    /* border-style: dashed; */
     border-color: rgb(158, 219, 162);
     border-width: 10px;
     border-radius: 70px;
@@ -355,6 +355,14 @@ margin: auto;
 width: 40%;
 }
 
+#trad {
+  display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+
+
 .wolf {
   /* max-width: 900px; */
   height: auto;
@@ -394,6 +402,14 @@ width: 40%;
 margin: auto;
 width: 40%;
 }
+
+#dig {
+  display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+
 
 .death {
   /* max-width: 900px; */
@@ -458,6 +474,14 @@ width: 40%;
 margin: auto;
 width: 40%;
 }
+
+#char {
+  display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+
 
 .hold {
   /* max-width: 900px; */
