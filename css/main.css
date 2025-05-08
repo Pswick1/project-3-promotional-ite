@@ -457,8 +457,12 @@ width: 40%;
   display: block;
 margin: auto;
 width: 40%;
-display: flex;
+}
+
+#phys {
+  display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 justify-content: space-evenly;
+
 }
