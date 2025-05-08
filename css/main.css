@@ -224,10 +224,12 @@ h2 {
     font-weight: 400;
     font-style: normal;
     /* font-size: 64px; */
-    text-align: left;
+    text-align: center;
     flex-wrap: wrap;
     font-size: min(7vw, 64px);
     text-decoration: underline;
+    border-style: groove;
+    border-color: rgb(158, 219, 162);
   }
 
   #trad {
@@ -469,5 +471,5 @@ justify-content: space-evenly;
 .bee {
   height:auto;
   width: 40%;
-  margin-left: 250px;
+  margin-left: 350px;
 }
