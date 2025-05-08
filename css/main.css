@@ -11,12 +11,6 @@ body {
     background-size: cover;
 }
 
-div.yui3-lightbox2 .yui3-lightbox2-content {
-  position: fixed !important;
-  top: 0px !important;
-  z-index: 999999999999 !important;
-}
-
 /* Box sizing fix taken from - https://css-tricks.com/almanac/properties/b/box-sizing/ */
 
 *, *::before, *::after {
