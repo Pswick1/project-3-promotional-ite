@@ -469,4 +469,5 @@ justify-content: space-evenly;
 .bee {
   height:auto;
   width: 40%;
+  align-content: center;
 }
