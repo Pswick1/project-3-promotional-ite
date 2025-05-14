@@ -4,6 +4,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
 html,
 body {
     margin: 0;
@@ -56,6 +58,8 @@ body {
 
 h1 {
     font-family: "Jacquarda Bastarda 9", serif;
+    /* font-family: "Pixelify Sans", sans-serif; */
+    /* font-family: "Jersey 10", sans-serif; */
     color: white;
     text-align: center;
     /* font-size: 200px; */
@@ -65,13 +69,13 @@ h1 {
     text-decoration: underline;
     text-decoration-thickness: 10px;
     flex-wrap: wrap;
-    padding-bottom: 400px;
-    font-size: min(15vw, 200px);
-
+    /* padding-bottom: 400px; */
+    font-size: min(15vw, 150px);
 }
 
 h2 {
-    font-family: "Jacquarda Bastarda 9", serif;
+    /* font-family: "Jacquarda Bastarda 9", serif; */
+    font-family: "Pixelify Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
     /* font-size: 64px; */
@@ -98,12 +102,6 @@ h2 {
     display: block;
   margin: auto;
   width: 40%;
-}
-
-.wolf:hover {
-    height: auto;
-    width: 41%;
-    transition: all 300ms ease-out;
 }
 
 /* Style the button that is used to open and close the collapsible content */
@@ -221,7 +219,8 @@ h2 {
   }
 
   h3 {
-    font-family: "Jacquarda Bastarda 9", serif;
+    /* font-family: "Jacquarda Bastarda 9", serif; */
+    font-family: "Pixelify Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
     /* font-size: 64px; */
@@ -229,17 +228,19 @@ h2 {
     flex-wrap: wrap;
     font-size: min(7vw, 64px);
     text-decoration: underline;
-    border-style: solid;
+    /* border-style: solid; */
     border-color: rgb(158, 219, 162);
     border-width: 10px;
     border-radius: 70px;
-    margin-left: 600px;
-    margin-right: 600px;
+    margin-left: 500px;
+    margin-right: 500px;
     margin-top:100px;
     margin-bottom:100px;
+    color: rgb(158, 219, 162);
+  padding-bottom: 40px;
   }
 
-  #trad {
+  #pencil {
     background-image: url(../images/papertexture.jpeg);
     background-color: rgb(249, 247, 220);
     background-blend-mode: multiply;
@@ -251,7 +252,8 @@ h2 {
 }
 
 h4 {
-  font-family: "Jacquarda Bastarda 9", serif;
+  /* font-family: "Jacquarda Bastarda 9", serif; */
+  font-family: "Pixelify Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
   /* font-size: 64px; */
@@ -259,9 +261,11 @@ h4 {
   flex-wrap: wrap;
   font-size: min(7vw, 64px);
   text-decoration: underline;
+  padding-bottom: 40px;
+  color: rgb(158, 219, 162);
 }
 
-#dig {
+#digit {
   background-image: url(../images/papertexture.jpeg);
   background-color: rgb(249, 247, 220);
   background-blend-mode: multiply;
@@ -273,7 +277,8 @@ h4 {
 }
 
 h5 {
-  font-family: "Jacquarda Bastarda 9", serif;
+  /* font-family: "Jacquarda Bastarda 9", serif; */
+  font-family: "Pixelify Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
   /* font-size: 64px; */
@@ -281,9 +286,11 @@ h5 {
   flex-wrap: wrap;
   font-size: min(7vw, 64px);
   text-decoration: underline;
+  padding-bottom: 40px;
+  color: rgb(158, 219, 162);
 }
 
-#char {
+#charact {
   background-image: url(../images/papertexture.jpeg);
   background-color: rgb(249, 247, 220);
   background-blend-mode: multiply;
@@ -292,10 +299,15 @@ h5 {
   padding-top: 10px;
   margin-left: 250px;
   margin-right: 250px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;  
 }
 
 h6 {
-  font-family: "Jacquarda Bastarda 9", serif;
+  /* font-family: "Jacquarda Bastarda 9", serif; */
+  font-family: "Pixelify Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
   /* font-size: 64px; */
@@ -303,9 +315,11 @@ h6 {
   flex-wrap: wrap;
   font-size: min(7vw, 64px);
   text-decoration: underline;
+  padding-bottom: 40px;
+  color: rgb(158, 219, 162);
 }
 
-#phys {
+#physic {
   background-image: url(../images/papertexture.jpeg);
   background-color: rgb(249, 247, 220);
   background-blend-mode: multiply;
@@ -316,7 +330,7 @@ h6 {
   margin-right: 250px;
 }
 
-.item {
+.pap {
   /* max-width: 900px; */
   height: auto;
   display: block;
@@ -324,47 +338,14 @@ margin: auto;
 width: 40%;
 }
 
-.thumb {
-  /* max-width: 900px; */
-  height: auto;
-  display: block;
-margin: auto;
-width: 40%;
-}
-
-.food {
-  /* max-width: 900px; */
-  height: auto;
-  display: block;
-margin: auto;
-width: 40%;
-}
-
-.one {
-  /* max-width: 900px; */
-  height: auto;
-  display: block;
-margin: auto;
-width: 40%;
-}
-
-.kitchen {
-  /* max-width: 900px; */
-  height: auto;
-  display: block;
-margin: auto;
-width: 40%;
-}
-
-#trad {
+#pencil {
   display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 justify-content: space-evenly;
 }
 
-
-.wolf {
+.dig {
   /* max-width: 900px; */
   height: auto;
   display: block;
@@ -372,117 +353,20 @@ margin: auto;
 width: 40%;
 }
 
-.dog {
-  /* max-width: 900px; */
-  height: auto;
-  display: block;
-margin: auto;
-width: 40%;
-}
-
-.red {
-  /* max-width: 900px; */
-  height: auto;
-  display: block;
-margin: auto;
-width: 40%;
-}
-
-.pizza {
-  /* max-width: 900px; */
-  height: auto;
-  display: block;
-margin: auto;
-width: 40%;
-}
-
-.apple {
-  /* max-width: 900px; */
-  height: auto;
-  display: block;
-margin: auto;
-width: 40%;
-}
-
-#dig {
+#digit {
   display: flex;
 flex-direction: row;
 flex-wrap: wrap;
 justify-content: space-evenly;
 }
 
-
-.death {
+.des {
   /* max-width: 900px; */
   height: auto;
   display: block;
 margin: auto;
 width: 40%;
 }
-
-.del {
-  /* max-width: 900px; */
-  height: auto;
-  display: block;
-margin: auto;
-width: 40%;
-}
-
-.echo {
-  /* max-width: 900px; */
-  height: auto;
-  display: block;
-margin: auto;
-width: 40%;
-}
-
-.life {
-  /* max-width: 900px; */
-  height: auto;
-  display: block;
-margin: auto;
-width: 40%;
-}
-
-.mouse {
-  /* max-width: 900px; */
-  height: auto;
-  display: block;
-margin: auto;
-width: 40%;
-}
-
-.oc {
-  /* max-width: 900px; */
-  height: auto;
-  display: block;
-margin: auto;
-width: 40%;
-}
-
-.re {
-  /* max-width: 900px; */
-  height: auto;
-  display: block;
-margin: auto;
-width: 40%;
-}
-
-.spot {
-  /* max-width: 900px; */
-  height: auto;
-  display: block;
-margin: auto;
-width: 40%;
-}
-
-#char {
-  display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: space-evenly;
-}
-
 
 .hold {
   /* max-width: 900px; */
@@ -492,7 +376,7 @@ margin: auto;
 width: 40%;
 }
 
-#phys {
+#physic {
   display: flex;
 flex-direction: row;
 flex-wrap: wrap;
@@ -502,7 +386,15 @@ justify-content: space-evenly;
 .bee {
   height:auto;
   width: 40%;
-  margin-left: 700px;
+  margin-left: 450px;
+  margin-right: 450px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;  
+  align-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 #end {
@@ -515,5 +407,5 @@ justify-content: space-evenly;
   color: white;
   font-size: 30px;
   padding-top: 30px;
-  padding-top: 30px;
+  padding-bottom: 30px;
   }
