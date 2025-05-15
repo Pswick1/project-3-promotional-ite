@@ -65,12 +65,29 @@ h1 {
     /* font-size: 200px; */
     font-weight: 400;
     font-style: normal;
-    padding: 300px 0;
+    padding-top: 300px;
     text-decoration: underline;
     text-decoration-thickness: 10px;
     flex-wrap: wrap;
     /* padding-bottom: 400px; */
-    font-size: min(15vw, 150px);
+    font-size: min(15vw, 100px);
+}
+
+#head {
+  padding-top: 100px;
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 200px;
+  font-size: min(10vw, 30px);
+}
+
+#head a {
+  color: white;
+  font-family: "Pixelify Sans", sans-serif;
+
 }
 
 h2 {
@@ -303,6 +320,8 @@ h5 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;  
+  row-gap: 1rem;
+
 }
 
 h6 {
@@ -335,7 +354,7 @@ h6 {
   height: auto;
   display: block;
 margin: auto;
-width: 40%;
+width: 100%;
 }
 
 #pencil {
@@ -343,6 +362,7 @@ width: 40%;
 flex-direction: row;
 flex-wrap: wrap;
 justify-content: space-evenly;
+row-gap: 1rem;
 }
 
 .dig {
@@ -350,7 +370,7 @@ justify-content: space-evenly;
   height: auto;
   display: block;
 margin: auto;
-width: 40%;
+width: 100%;
 }
 
 #digit {
@@ -358,6 +378,7 @@ width: 40%;
 flex-direction: row;
 flex-wrap: wrap;
 justify-content: space-evenly;
+row-gap: 1rem;
 }
 
 .des {
@@ -365,7 +386,7 @@ justify-content: space-evenly;
   height: auto;
   display: block;
 margin: auto;
-width: 40%;
+width: 100%;
 }
 
 .hold {
@@ -373,7 +394,7 @@ width: 40%;
   height: auto;
   display: block;
 margin: auto;
-width: 40%;
+width: 100%;
 }
 
 #physic {
@@ -381,6 +402,7 @@ width: 40%;
 flex-direction: row;
 flex-wrap: wrap;
 justify-content: space-evenly;
+row-gap: 1rem;
 }
 
 .bee {
@@ -418,4 +440,20 @@ justify-content: space-evenly;
  .bottom {
   height: 90px;
   width: auto;
+ }
+
+ #digit a {
+  width: 40%;
+ }
+
+ #pencil a {
+  width: 40%;
+ }
+
+ #charact a {
+  width: 40%;
+ }
+
+ #physic a {
+  width: 40%;
  }
